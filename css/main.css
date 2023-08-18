@@ -1,0 +1,461 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, thead, tbody, tfoot, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, header, footer, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+font-size: 2rem;
+font-weight: bold;
+}
+
+h3 {
+font-size: 1.5rem;
+font-weight: bold;    
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.wrapper1 {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1200px;
+}
+
+header {
+    background-color: burlywood;
+}
+
+.logo {
+    background-color: #c70606;
+    width: 100%;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #c78c06;
+}
+
+header .home, .about, .service, .team, .contact {
+    background-color: #c78c06;
+    color: black;
+}
+
+/* styling navigation bar*/
+
+.search form {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.search form input {
+    width: 97%;
+    height: 22px;
+}
+
+.form {
+    border: 1px solid #c78c06;
+    color: #c78c06;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome {
+    background-image: url("/images/main-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcome .wrapper1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.welcome .wrapper1 h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+/*style navigation bar*/
+
+.button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.button {
+    color: black;
+    background-color: #c78c06;
+}
+
+.about {
+    background-color: #ffe6ac;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.about h2 {
+    padding-bottom: 10px;
+}
+
+.service {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.service h2 {
+    padding-bottom: 10px;
+}
+
+.digital, .marketing, .video, .webdevelopment, .printing {
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+
+.service h3, .service p {
+    padding: 10px;
+}
+
+.service p {
+    padding-top: 0;
+}
+
+.service button {
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.vision {
+    background-image: url("/images/vision.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.vision h3, .vision p {
+    color: white;
+}
+
+.vision button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px #c78c06;
+}
+
+.vision h3, .vision p {
+    padding-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.john, .bob {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.team h4 {
+    border-bottom: 2px solid #c78c06;
+}
+
+.team p {
+    padding-top: 10px;
+}
+
+.doe, .rite {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.contact {
+    padding-top: 50px;
+}
+
+.contact h2 {
+    padding-bottom: 10px;
+}
+
+.message input, .message textarea {
+    width: 100%;
+}
+
+.contact .info .message button {
+    font-size: 1.2rem;
+    background-color: black;
+    color: #c78c06;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.table {
+    border: solid 1px black;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+footer p {
+    background-color: #222;
+    color: #c78c06;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.lastline {
+    padding-top: 0;
+}
+
+.lastline a {
+    color: #c78c06;
+}
+
+    @media screen and (min-width: 760px) 
+    and(max-width: 1200px) {
+    .navigation {
+        font-size: 0.8rem;
+    } 
+
+
+    @media screen and (min-width: 760px) {
+        .navigation {
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 40px 10px;
+        }   
+    }
+
+    .logocontainer {
+        width: 98px;
+        height: 98px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 30px;
+    }
+
+    .navigation li {
+        background-color: #222;
+        justify-content: space-evenly;
+        padding: 15px 30px;
+        width: max-content;
+        margin: 1rem;
+    }
+
+    .navigation .home, .about, .service, .team, .contact {
+        background-color: #c78c06;
+    }
+
+    .navigation .find {
+        margin-top: 50px;
+        width: 15vw;
+    }
+
+    .about .wrapper1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .flo {
+        width: 40vw;
+        margin-right: 1rem;
+    }
+
+    .flo {
+        width: 50%;
+        float: left;
+        padding-right: 1rem;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .flo img {
+        padding-bottom: 0;
+    }
+
+    .servicesboxes {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .digital {
+        grid-column: 1/ span3;
+        margin-right: 5px;
+    }
+
+    .marketing {
+        grid-column: 4/ span3;
+        margin-left: 5px;
+    }
+
+    .video {
+        grid-column: 1/ span2;
+        grid-row: 2/ span2;
+        margin-right: 6px;
+    }
+
+    .webdevelopment {
+        grid-column: 3/ span2;
+        grid-row: 2/ span2;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .printing {
+        grid-column: 5/ span2;
+        grid-row: 2/ span2;
+        margin-left: 6px;
+    }
+
+    .serviceboxes h3 {
+        width: max-content;
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "john doe"
+        "bob rite";
+    }
+
+    .john {
+        grid-area: john;
+        padding-top: 0;
+    }
+
+    .doe {
+        grid-area: doe;
+        padding: 10px 10px;
+    }
+
+    .bob {
+        grid-area: bob;
+        padding: 0;
+    }
+
+    .rite {
+        grid-area: rite;
+        padding-top: 10px 10px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 270px 170px;
+        grid-template-areas: 
+        "message message location location"
+        "hours hours hours hours";
+    }
+
+    .message {
+        grid-area: message;
+        width: auto;
+    }
+
+    .message form input, .message form textarea {
+        width: 98%;
+    }
+
+    .hours {
+        grid-area: hours;
+        margin-top: 1rem;
+    }
+
+    .location {
+        grid-area: location;
+        text-align: left;
+    }
+
+    .location iframe {
+        width: 98%;
+        height: 86%;
+    }
+}    
